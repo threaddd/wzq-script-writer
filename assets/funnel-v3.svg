@@ -1,0 +1,83 @@
+<svg viewBox="0 0 680 960" width="680" height="960" xmlns="http://www.w3.org/2000/svg">
+<title>微证券视频号脚本工作流 v10.2（六步结构）</title>
+<defs>
+  <marker id="afin" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<rect width="680" height="960" fill="white"/>
+
+<!-- 输入 -->
+<rect x="210" y="20" width="260" height="44" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="340" y="47" text-anchor="middle">输入：新闻原文 / 已有脚本</text>
+<polyline points="340,64 340,88" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#afin)"/>
+
+<!-- 第一步 新闻分类 -->
+<rect x="80" y="88" width="520" height="84" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="340" y="112" text-anchor="middle">第一步　新闻分类</text>
+<rect x="100" y="122" width="220" height="44" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="210" y="142" text-anchor="middle">低门槛</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="210" y="159" text-anchor="middle">直觉理解，无需解读</text>
+<rect x="360" y="122" width="220" height="44" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="470" y="142" text-anchor="middle">高门槛</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="470" y="159" text-anchor="middle">重要但需解读翻译</text>
+<polyline points="340,172 340,196" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#afin)"/>
+
+<!-- 第二步 选题筛选（关键卡点） -->
+<rect x="60" y="196" width="560" height="150" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0F6E56" x="340" y="220" text-anchor="middle">第二步　选题筛选（关键卡点）</text>
+<rect x="78" y="232" width="240" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="198" y="254" text-anchor="middle">A. 黑名单 11 类</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="198" y="271" text-anchor="middle">命中任一即筛除</text>
+<rect x="362" y="232" width="240" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="482" y="254" text-anchor="middle">B. 三大入选原则</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="482" y="271" text-anchor="middle">紧迫性·重要性·接近性（至少命中一项）</text>
+<text font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#0F6E56" x="340" y="306" text-anchor="middle">★ 通过则继续，否则止步（仅输出筛选原因与建议）</text>
+<polyline points="60,268 42,268 42,312 60,312" fill="none" stroke="#E24B4A" stroke-width="1" stroke-dasharray="3,3"/>
+<text font-family="Arial,sans-serif" font-size="10" fill="#A32D2D" x="34" y="290" text-anchor="middle" transform="rotate(-90,34,290)">不符合→筛除</text>
+<polyline points="340,346 340,372" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#afin)"/>
+
+<!-- 第三步 脚本撰写 -->
+<rect x="60" y="372" width="560" height="200" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="340" y="396" text-anchor="middle">第三步　脚本撰写</text>
+<rect x="78" y="408" width="160" height="66" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="158" y="430" text-anchor="middle">a. 新闻切入</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="158" y="447" text-anchor="middle">≤2 个数字</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="158" y="463" text-anchor="middle">时间模糊化</text>
+<rect x="260" y="408" width="160" height="66" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="340" y="430" text-anchor="middle">b. 产品衔接</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="340" y="447" text-anchor="middle">三类用户类型</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="340" y="463" text-anchor="middle">逻辑自然生长</text>
+<rect x="442" y="408" width="160" height="66" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="522" y="430" text-anchor="middle">c. 行动引导</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="522" y="447" text-anchor="middle">4 个 CTA 轮换</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="522" y="463" text-anchor="middle">连续两条不重复</text>
+<rect x="78" y="486" width="524" height="46" rx="8" fill="#FCEFD2" stroke="#854F0B" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#854F0B" x="210" y="513" text-anchor="middle">不了解热点型</text>
+<text font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#854F0B" x="340" y="513" text-anchor="middle">消息过载型</text>
+<text font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#854F0B" x="470" y="513" text-anchor="middle">跃跃欲试型</text>
+<polyline points="340,572 340,598" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#afin)"/>
+
+<!-- 第四步 快讯撰写 -->
+<rect x="60" y="598" width="560" height="72" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="340" y="622" text-anchor="middle">第四步　快讯撰写</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="340" y="645" text-anchor="middle">热点事实 + 一个过渡词 + 轻 CTA，≤25 字</text>
+<polyline points="340,670 340,696" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#afin)"/>
+
+<!-- 第五步 输出前核查清单 -->
+<rect x="60" y="696" width="560" height="84" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#A32D2D" x="340" y="720" text-anchor="middle">第五步　输出前核查清单（12 项）</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="340" y="742" text-anchor="middle">数字≤2 · 无具体日期 · 无个股/板块/指数名 · 无收益暗示 · 无价格信号词</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="340" y="760" text-anchor="middle">衔接类型不重复 · CTA 不重复 · 快讯≤25字 · 开头句式不重复</text>
+<polyline points="340,780 340,806" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#afin)"/>
+
+<!-- 第六步 落盘 -->
+<rect x="60" y="806" width="560" height="64" rx="10" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" x="340" y="830" text-anchor="middle">第六步　按输出格式落盘</text>
+<text font-family="Arial,sans-serif" font-size="11" fill="#555" x="340" y="850" text-anchor="middle">完整脚本 + 快讯文案 + 日期 + 来源</text>
+<polyline points="340,870 340,896" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#afin)"/>
+
+<!-- 最终输出 -->
+<rect x="160" y="896" width="360" height="52" rx="10" fill="#378ADD" stroke="#185FA5" stroke-width="0.5"/>
+<text font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white" x="340" y="926" text-anchor="middle">输出：可直接发布的脚本 + 快讯</text>
+</svg>
